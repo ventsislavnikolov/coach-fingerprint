@@ -1,0 +1,29 @@
+coach,metric,value,baseline_median,percentile,rank,of
+Sebastian Hoeneß,"Pressing intensity (PPDA, lower = more intense)",14.207,24.779,100.0,1,17
+Sebastian Hoeneß,Average pressure height,52.313,45.965,87.5,3,17
+Sebastian Hoeneß,Pressures in the attacking third,25.815,17.951,93.8,2,17
+Sebastian Hoeneß,Players pressing in opponent's third (360),4.331,3.7,93.3,2,16
+Sebastian Hoeneß,Centre-back defensive action height,30.717,27.325,68.8,6,17
+Sebastian Hoeneß,Back-line height in midfield phase (360),36.256,33.824,80.0,4,16
+Sebastian Hoeneß,Full-back touch height,52.93,52.93,50.0,9,17
+Sebastian Hoeneß,"Full-back narrowness (touch width, lower = narrower)",22.838,25.206,100.0,1,17
+Sebastian Hoeneß,Full-back middle-third touches in central lanes,39.336,14.322,100.0,1,17
+Sebastian Hoeneß,Holding midfielder passes from the centre-back zone,32.188,26.071,75.0,5,17
+Sebastian Hoeneß,Counter-press actions per game,60.5,51.5,81.2,4,17
+Sebastian Hoeneß,Ball losses won back within 5 seconds,14.293,11.041,68.8,6,17
+Sebastian Hoeneß,xG conceded from counter-attacks,0.013,0.193,12.5,15,17
+Sebastian Hoeneß,Shots conceded from through balls,0.5,0.5,43.8,7,17
+Sebastian Hoeneß,Possession (pass share),51.31,34.178,93.8,2,17
+Unai Emery,"Pressing intensity (PPDA, lower = more intense)",13.656,13.821,63.2,8,20
+Unai Emery,Average pressure height,47.446,47.836,36.8,13,20
+Unai Emery,Pressures in the attacking third,20.615,20.556,52.6,10,20
+Unai Emery,Centre-back defensive action height,27.535,26.312,78.9,5,20
+Unai Emery,Full-back touch height,58.571,54.648,100.0,1,20
+Unai Emery,"Full-back narrowness (touch width, lower = narrower)",25.678,25.632,42.1,12,20
+Unai Emery,Full-back middle-third touches in central lanes,11.431,12.75,10.5,18,20
+Unai Emery,Holding midfielder passes from the centre-back zone,23.881,14.644,100.0,1,20
+Unai Emery,Counter-press actions per game,54.684,58.868,0.0,20,20
+Unai Emery,Ball losses won back within 5 seconds,12.824,13.393,21.1,16,20
+Unai Emery,xG conceded from counter-attacks,0.113,0.08,84.2,4,20
+Unai Emery,Shots conceded from through balls,0.237,0.434,10.5,18,20
+Unai Emery,Possession (pass share),50.247,48.463,68.4,7,20
