@@ -1,0 +1,513 @@
+{
+ "metrics": [
+  {
+   "key": "ppda",
+   "label": "Pressing intensity (PPDA, lower = more intense)",
+   "group": "Pressing",
+   "unit": "",
+   "claim": "All three press aggressively",
+   "direction": -1,
+   "digits": 1,
+   "per_match_sum": false
+  },
+  {
+   "key": "press_height_m",
+   "label": "Average pressure height",
+   "group": "Pressing",
+   "unit": "m from own goal",
+   "claim": "High press vs mid-block",
+   "direction": 1,
+   "digits": 1,
+   "per_match_sum": false
+  },
+  {
+   "key": "high_press_share",
+   "label": "Pressures in the attacking third",
+   "group": "Pressing",
+   "unit": "%",
+   "claim": "High press vs mid-block",
+   "direction": 1,
+   "digits": 0,
+   "per_match_sum": false
+  },
+  {
+   "key": "press_commit_360",
+   "label": "Players pressing in opponent's third (360)",
+   "group": "Pressing",
+   "unit": "players",
+   "claim": "4-4-2 press commits 2 forwards plus wide men",
+   "direction": 1,
+   "digits": 1,
+   "per_match_sum": false
+  },
+  {
+   "key": "cb_action_height_m",
+   "label": "Centre-back defensive action height",
+   "group": "Defensive line",
+   "unit": "m from own goal",
+   "claim": "High defensive line",
+   "direction": 1,
+   "digits": 1,
+   "per_match_sum": false
+  },
+  {
+   "key": "line_height_360_m",
+   "label": "Back-line height in midfield phase (360)",
+   "group": "Defensive line",
+   "unit": "m from own goal",
+   "claim": "High defensive line",
+   "direction": 1,
+   "digits": 1,
+   "per_match_sum": false
+  },
+  {
+   "key": "fb_touch_height_m",
+   "label": "Full-back touch height",
+   "group": "Full-backs",
+   "unit": "m from own goal",
+   "claim": "Full-backs push on",
+   "direction": 1,
+   "digits": 1,
+   "per_match_sum": false
+  },
+  {
+   "key": "fb_touch_width_m",
+   "label": "Full-back narrowness (touch width, lower = narrower)",
+   "group": "Full-backs",
+   "unit": "m from centre",
+   "claim": "Inverted full-backs",
+   "direction": -1,
+   "digits": 1,
+   "per_match_sum": false
+  },
+  {
+   "key": "fb_central_share",
+   "label": "Full-back middle-third touches in central lanes",
+   "group": "Full-backs",
+   "unit": "%",
+   "claim": "Inverted full-backs",
+   "direction": 1,
+   "digits": 0,
+   "per_match_sum": false
+  },
+  {
+   "key": "dm_drop_share",
+   "label": "Holding midfielder passes from the centre-back zone",
+   "group": "Build-up",
+   "unit": "%",
+   "claim": "The 6 drops into the back line (3-2 build-up)",
+   "direction": 1,
+   "digits": 0,
+   "per_match_sum": false
+  },
+  {
+   "key": "counterpress_actions",
+   "label": "Counter-press actions per game",
+   "group": "Counter-press",
+   "unit": "per game",
+   "claim": "Aggressive counter-press",
+   "direction": 1,
+   "digits": 0,
+   "per_match_sum": false
+  },
+  {
+   "key": "regain_5s_rate",
+   "label": "Ball losses won back within 5 seconds",
+   "group": "Counter-press",
+   "unit": "%",
+   "claim": "Aggressive counter-press",
+   "direction": 1,
+   "digits": 0,
+   "per_match_sum": false
+  },
+  {
+   "key": "counter_xg_conceded",
+   "label": "xG conceded from counter-attacks",
+   "group": "Space behind",
+   "unit": "xG per game",
+   "claim": "Space left behind a high line",
+   "direction": 1,
+   "digits": 2,
+   "per_match_sum": false
+  },
+  {
+   "key": "through_ball_shots_conceded",
+   "label": "Shots conceded from through balls",
+   "group": "Space behind",
+   "unit": "per game",
+   "claim": "Space left behind a high line",
+   "direction": 1,
+   "digits": 2,
+   "per_match_sum": false
+  },
+  {
+   "key": "possession",
+   "label": "Possession (pass share)",
+   "group": "Context",
+   "unit": "%",
+   "claim": "Context for every other number",
+   "direction": 1,
+   "digits": 0,
+   "per_match_sum": false
+  }
+ ],
+ "coaches": [
+  {
+   "key": "hoeness",
+   "coach": "Sebastian Hoeneß",
+   "team": "VfB Stuttgart",
+   "sample": "Stuttgart's 2 Bundesliga games vs Leverkusen, 2023/24",
+   "baseline": "the 16 other Bundesliga teams, in their games vs Leverkusen",
+   "values": {
+    "ppda": {
+     "value": 14.207,
+     "baseline_median": 24.779,
+     "percentile": 100.0,
+     "rank": 1,
+     "of": 17
+    },
+    "press_height_m": {
+     "value": 52.313,
+     "baseline_median": 45.965,
+     "percentile": 87.5,
+     "rank": 3,
+     "of": 17
+    },
+    "high_press_share": {
+     "value": 25.815,
+     "baseline_median": 17.951,
+     "percentile": 93.8,
+     "rank": 2,
+     "of": 17
+    },
+    "press_commit_360": {
+     "value": 4.331,
+     "baseline_median": 3.7,
+     "percentile": 93.3,
+     "rank": 2,
+     "of": 16
+    },
+    "cb_action_height_m": {
+     "value": 30.717,
+     "baseline_median": 27.325,
+     "percentile": 68.8,
+     "rank": 6,
+     "of": 17
+    },
+    "line_height_360_m": {
+     "value": 36.256,
+     "baseline_median": 33.824,
+     "percentile": 80.0,
+     "rank": 4,
+     "of": 16
+    },
+    "fb_touch_height_m": {
+     "value": 52.93,
+     "baseline_median": 52.93,
+     "percentile": 50.0,
+     "rank": 9,
+     "of": 17
+    },
+    "fb_touch_width_m": {
+     "value": 22.838,
+     "baseline_median": 25.206,
+     "percentile": 100.0,
+     "rank": 1,
+     "of": 17
+    },
+    "fb_central_share": {
+     "value": 39.336,
+     "baseline_median": 14.322,
+     "percentile": 100.0,
+     "rank": 1,
+     "of": 17
+    },
+    "dm_drop_share": {
+     "value": 32.188,
+     "baseline_median": 26.071,
+     "percentile": 75.0,
+     "rank": 5,
+     "of": 17
+    },
+    "counterpress_actions": {
+     "value": 60.5,
+     "baseline_median": 51.5,
+     "percentile": 81.2,
+     "rank": 4,
+     "of": 17
+    },
+    "regain_5s_rate": {
+     "value": 14.293,
+     "baseline_median": 11.041,
+     "percentile": 68.8,
+     "rank": 6,
+     "of": 17
+    },
+    "counter_xg_conceded": {
+     "value": 0.013,
+     "baseline_median": 0.193,
+     "percentile": 12.5,
+     "rank": 15,
+     "of": 17
+    },
+    "through_ball_shots_conceded": {
+     "value": 0.5,
+     "baseline_median": 0.5,
+     "percentile": 43.8,
+     "rank": 7,
+     "of": 17
+    },
+    "possession": {
+     "value": 51.31,
+     "baseline_median": 34.178,
+     "percentile": 93.8,
+     "rank": 2,
+     "of": 17
+    }
+   },
+   "shapes": [
+    {
+     "label": "vs Bayer Leverkusen, 2024-04-27 (4222)",
+     "positions": {
+      "Goalkeeper": [
+       11.5,
+       39.6
+      ],
+      "Left Defensive Midfield": [
+       34.5,
+       39.1
+      ],
+      "Right Center Back": [
+       31.8,
+       49.5
+      ],
+      "Left Center Back": [
+       37.4,
+       20.8
+      ],
+      "Right Defensive Midfield": [
+       42.5,
+       51.5
+      ],
+      "Right Back": [
+       29.8,
+       69.8
+      ],
+      "Left Back": [
+       37.1,
+       12.6
+      ],
+      "Right Attacking Midfield": [
+       38.5,
+       66.8
+      ]
+     }
+    },
+    {
+     "label": "vs Bayer Leverkusen, 2023-12-10 (3421)",
+     "positions": {
+      "Right Defensive Midfield": [
+       36.3,
+       41.7
+      ],
+      "Center Back": [
+       34.7,
+       30.0
+      ],
+      "Left Center Back": [
+       37.3,
+       29.3
+      ],
+      "Right Center Back": [
+       38.8,
+       58.9
+      ],
+      "Goalkeeper": [
+       9.1,
+       41.7
+      ],
+      "Left Defensive Midfield": [
+       32.1,
+       39.2
+      ],
+      "Right Back": [
+       43.3,
+       66.6
+      ],
+      "Left Back": [
+       32.9,
+       11.4
+      ]
+     }
+    }
+   ],
+   "games": 2,
+   "formations": {
+    "4222": 1,
+    "3421": 1
+   }
+  },
+  {
+   "key": "emery",
+   "coach": "Unai Emery",
+   "team": "Sevilla",
+   "sample": "Sevilla's full La Liga season, 2015/16 (38 games)",
+   "baseline": "all 20 La Liga teams, 2015/16",
+   "values": {
+    "ppda": {
+     "value": 13.656,
+     "baseline_median": 13.821,
+     "percentile": 63.2,
+     "rank": 8,
+     "of": 20
+    },
+    "press_height_m": {
+     "value": 47.446,
+     "baseline_median": 47.836,
+     "percentile": 36.8,
+     "rank": 13,
+     "of": 20
+    },
+    "high_press_share": {
+     "value": 20.615,
+     "baseline_median": 20.556,
+     "percentile": 52.6,
+     "rank": 10,
+     "of": 20
+    },
+    "cb_action_height_m": {
+     "value": 27.535,
+     "baseline_median": 26.312,
+     "percentile": 78.9,
+     "rank": 5,
+     "of": 20
+    },
+    "fb_touch_height_m": {
+     "value": 58.571,
+     "baseline_median": 54.648,
+     "percentile": 100.0,
+     "rank": 1,
+     "of": 20
+    },
+    "fb_touch_width_m": {
+     "value": 25.678,
+     "baseline_median": 25.632,
+     "percentile": 42.1,
+     "rank": 12,
+     "of": 20
+    },
+    "fb_central_share": {
+     "value": 11.431,
+     "baseline_median": 12.75,
+     "percentile": 10.5,
+     "rank": 18,
+     "of": 20
+    },
+    "dm_drop_share": {
+     "value": 23.881,
+     "baseline_median": 14.644,
+     "percentile": 100.0,
+     "rank": 1,
+     "of": 20
+    },
+    "counterpress_actions": {
+     "value": 54.684,
+     "baseline_median": 58.868,
+     "percentile": 0.0,
+     "rank": 20,
+     "of": 20
+    },
+    "regain_5s_rate": {
+     "value": 12.824,
+     "baseline_median": 13.393,
+     "percentile": 21.1,
+     "rank": 16,
+     "of": 20
+    },
+    "counter_xg_conceded": {
+     "value": 0.113,
+     "baseline_median": 0.08,
+     "percentile": 84.2,
+     "rank": 4,
+     "of": 20
+    },
+    "through_ball_shots_conceded": {
+     "value": 0.237,
+     "baseline_median": 0.434,
+     "percentile": 10.5,
+     "rank": 18,
+     "of": 20
+    },
+    "possession": {
+     "value": 50.247,
+     "baseline_median": 48.463,
+     "percentile": 68.4,
+     "rank": 7,
+     "of": 20
+    }
+   },
+   "shapes": [
+    {
+     "label": "32 games starting in 4231",
+     "positions": {
+      "Right Center Back": [
+       32.5,
+       56.3
+      ],
+      "Goalkeeper": [
+       10.1,
+       41.7
+      ],
+      "Left Center Back": [
+       31.8,
+       22.3
+      ],
+      "Left Back": [
+       36.6,
+       11.1
+      ],
+      "Center Attacking Midfield": [
+       44.9,
+       36.5
+      ],
+      "Right Back": [
+       37.8,
+       67.2
+      ],
+      "Right Defensive Midfield": [
+       39.9,
+       42.0
+      ],
+      "Left Defensive Midfield": [
+       39.4,
+       36.4
+      ],
+      "Right Wing": [
+       42.2,
+       51.9
+      ],
+      "Left Wing": [
+       43.1,
+       23.6
+      ]
+     }
+    }
+   ],
+   "games": 38,
+   "formations": {
+    "4231": 32,
+    "442": 5,
+    "4411": 1
+   }
+  },
+  {
+   "key": "farioli",
+   "coach": "Francesco Farioli",
+   "team": "FC Porto",
+   "sample": "No free event data (StatsBomb open data has no Farioli match)",
+   "baseline": "n/a",
+   "values": {},
+   "shapes": []
+  }
+ ]
+}
